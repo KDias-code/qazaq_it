@@ -1,0 +1,28 @@
+{{ define "header" }}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.5/examples/cover/cover.css">
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body class="text-center">
+    
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Qazaq IT</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="/">Home</a>
+            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="/contacts/">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      {{ end }}
